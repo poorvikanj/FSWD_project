@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Azayd IT Consulting Services">
+    <title>Azayd IT Consulting Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('#menu-toggle');
+        const menu = document.querySelector('#menu');
+    
+        menuToggle.addEventListener('click', function() {
+            menu.classList.toggle('active');
+        });
+    
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                menu.classList.remove('active');
+            }
+        });
+    });
+    </script>
+    
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="logo.png" alt="Azayd IT Consulting Services Logo">
+            </div>
+            <nav>
+                    <div id="menu-toggle">Menu</div>
+                    <ul id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h1>Welcome to Azayd IT Consultancy</h1>
+            <p>At Azayd IT Consulting Services, we provide top-notch IT solutions tailored to your business needs. Our team of experts is dedicated to helping you achieve your goals through innovative technology solutions. Azayd IT Consultancy is a leading provider of innovative software development and management IT consulting services. With a team of highly skilled professionals, we specialize in delivering customized software solutions tailored to meet the unique needs of businesses across various industries. Our services encompass the full software development lifecycle, from initial consulting and project planning to design, development, testing, and ongoing support. We leverage the latest technologies and best practices to ensure our clients achieve operational excellence and competitive advantage. Committed to quality and client satisfaction, Azayd IT Consultancy partners with businesses to drive digital transformation and achieve their strategic goals efficiently and effectively. Let us help you turn your vision into reality with our expert IT solutions.Azayd IT Consultancy is a leading provider of innovative software development and management IT consulting services. With a team of highly skilled professionals, we specialize in delivering customized software solutions tailored to meet the unique needs of businesses across various industries. Our services encompass the full software development lifecycle, from initial consulting and project planning to design, development, testing, and ongoing support. We leverage the latest technologies and best practices to ensure our clients achieve operational excellence and competitive advantage. Committed to quality and client satisfaction, Azayd IT Consultancy partners with businesses to drive digital transformation and achieve their strategic goals efficiently and effectively. Let us help you turn your vision into reality with our expert IT solutions.
+
+            </p>
+        </section>
+
+        <section id="services-overview">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Custom Software Development</h3>
+                <p> Our custom software development service is designed to create tailored solutions that align perfectly with your business needs. From concept to deployment, we work closely with you to understand your requirements and deliver software that enhances your operational efficiency and drives growth. Our expertise spans various technologies and platforms, ensuring that the final product is scalable, secure, and user-friendly. Whether you need a complex enterprise system or a simple mobile app, our team is equipped to bring your vision to life.</p>
+            </div>
+            <div class="service">
+                <h3>IT Strategy and Consulting</h3>
+                <p>Our IT strategy and consulting service helps businesses leverage technology to achieve their strategic objectives. We offer comprehensive assessments of your current IT infrastructure and processes, identifying areas for improvement and innovation. Our consultants develop a customized IT roadmap that aligns with your business goals, incorporating the latest industry trends and best practices. By optimizing your technology investments, we enable you to enhance productivity, reduce costs, and maintain a competitive edge in the market.</p>
+            </div>
+            <div class="service">
+                <h3>Cloud Services and Solutions</h3>
+                <p>Embrace the power of the cloud with our cloud services and solutions. We provide end-to-end cloud consulting, migration, and management services to help you transition smoothly to a cloud-based environment. Our team assists in selecting the right cloud platform, designing the architecture, and ensuring data security and compliance. With our cloud solutions, you can achieve greater flexibility, scalability, and cost-efficiency, empowering your business to innovate and grow without the limitations of traditional IT infrastructure.</p>
+            </div>
+        </section>
+
+        <section id="differentiators">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Tailored Solutions for Diverse Industries</li>
+                <p>  We specialize in creating bespoke software solutions that cater to the unique needs of various industries, including healthcare, finance, retail, and manufacturing. Our deep industry knowledge and versatile expertise enable us to develop highly customized applications that address specific business challenges and drive industry-specific innovation.</p>.
+                <li>End-to-End Service Lifecycle Management</li>
+                <p>Our comprehensive service offerings cover the entire software development lifecycle, from initial consultation and strategic planning to development, deployment, and ongoing support. This end-to-end approach ensures seamless integration, efficient project management, and continuous improvement, providing our clients with a single point of contact and accountability throughout their project journey.</p>
+                <li>Cutting-Edge Technology and Innovation</li>
+                <p>We leverage the latest technologies, including AI, machine learning, blockchain, and cloud computing, to deliver forward-thinking solutions that keep our clients ahead of the curve. Our commitment to innovation ensures that we not only meet current business needs but also anticipate future trends, enabling our clients to stay competitive in a rapidly evolving technological landscape.</p>
+            </ul>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Clients Say</h2>
+            <blockquote>
+                <p>1.Testimonial from "Tech Innovations Inc".
+                    "Working with Azayd IT Consultancy has been a game-changer for our business. Their team’s expertise in custom software development helped us streamline our operations and improve efficiency across the board. From project inception to final delivery, they demonstrated professionalism, creativity, and a deep understanding of our industry. The solutions they provided were not only innovative but also scalable, allowing us to adapt to changing market demands seamlessly. We highly recommend Azayd IT Consultancy to any organization looking to elevate their technological capabilities and drive growth."
+                    </p>
+                <cite>- John Smith, CEO of Tech Innovations Inc.</cite>
+            </blockquote>
+            <blockquote>
+                <p>2.Testimonial from "Global Healthcare Solutions"
+                    "We engaged Azayd IT Consultancy for their IT consulting services, and the results exceeded our expectations. Their team conducted a thorough assessment of our IT infrastructure and proposed a strategic roadmap to optimize our systems and processes. Their insights were invaluable in helping us modernize our operations and improve patient care delivery. Throughout the engagement, they demonstrated a high level of professionalism, responsiveness, and expertise. Thanks to their guidance, we are now better equipped to meet the evolving needs of our patients and stakeholders. We highly recommend Azayd IT Consultancy to any healthcare organization seeking innovative IT solutions."</p>
+                <cite>- Dr. Emily Johnson, CIO of Global Healthcare Solutions</cite>
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Azayd IT Consulting Services. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: url('image-1.webp') no-repeat center center/cover;
+    color: #0c0c0c;
+    padding: 1rem 0;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    height: 500px;
+    position: relative;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+    align-self: flex-start;
+}
+nav { 
+      display: flex;
+      justify-content:  space-between;
+      align-items:flex-start;
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:0;
+    width:100%;
+    align-items:flex-start;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    position: relative;
+    align-items: flex-start;
+}
+
+nav ul li a {
+    color: #050505;
+    text-decoration:none;
+    position: relative;
+    align-items: flex-start;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .social-media a {
+    margin: 0 0.5rem;
+    color: #ddd;
+    text-decoration: none;
+}
+
+#services-overview .service,
+#team-profiles .team-member,
+#case-studies .case-study,
+#blog-posts .blog-post,
+#job-openings .job-opening {
+    margin-bottom: 2rem;
+}
+
+.service h3,
+.team-member h3,
+.case-study h3,
+.blog-post h2,
+.job-opening h2 {
+    margin-top: 0;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#map {
+    height: 300px;
+    background: #ddd;
+}
